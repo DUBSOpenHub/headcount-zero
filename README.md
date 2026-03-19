@@ -9,10 +9,26 @@
 
 Every startup needs a CEO, CTO, CFO, VP of Product, and a dozen other leaders before it ships anything. Headcount Zero deploys 15 AI agents as a complete Series A/B executive team. Give it one idea, get back a full startup operating package.
 
-> ⚡ **Get started fast!** Say this in the Copilot CLI:
+> ### ⚡ One Command. That's It.
+>
+> **Never used the CLI before? No problem.** Follow these 3 steps:
+>
+> **1. Open your terminal**
+> - 🍎 **Mac:** Press `⌘ + Space`, type **Terminal**, hit Enter
+> - 🪟 **Windows:** Press `Win + X`, choose **Terminal** or **PowerShell**
+> - 🐧 **Linux:** Press `Ctrl + Alt + T`
+>
+> **2. Paste this line and press Enter:**
+> ```bash
+> curl -fsSL https://raw.githubusercontent.com/DUBSOpenHub/headcount-zero/main/quickstart.sh | bash
 > ```
-> startup
-> ```
+> *Already have the CLI? No worries — this detects it and skips straight to adding the skill.*
+>
+> **3. When Copilot opens, type:** `startup`
+>
+> That's it — your executive team is assembled! 🚀
+>
+> *Requires an active [Copilot subscription](https://github.com/features/copilot/plans). [Get one here →](https://github.com/features/copilot/plans)*
 
 ---
 
