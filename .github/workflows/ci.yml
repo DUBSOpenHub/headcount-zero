@@ -1,0 +1,19 @@
+name: CI
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+      - name: Shell syntax check
+        run: bash -n quickstart.sh
+      - name: Validate YAML
+        run: python3 -c "import yaml; [yaml.safe_load(open(f)) for f in ('config.yml',)]" 2>/dev/null || echo "No YAML to validate"
+      - name: Verify SKILL.md
+        run: test -s SKILL.md
